@@ -1,0 +1,5 @@
+{
+    "LOGIN": "https://exam.pishgamanasia.com/webapi/Account/Login",
+    "GET_VEHICLE_USERS": "https://exam.pishgamanasia.com/webapi/Request/GetVehicleUsers",
+    "SEND_REQUEST": "https://exam.pishgamanasia.com/webapi/Request/SendRequest"
+}

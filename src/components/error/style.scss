@@ -1,0 +1,31 @@
+#error-boundray-component {
+    height: 100Vh;
+    width: 100vw;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #error-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        #erorr-image {
+            width: 5rem;
+            height: 5rem;
+        }
+
+        button {
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding: .5rem;
+            border-radius: .1rem;
+            border: 1px solid lightgray;
+            font-family: 'IRANSans' !important;
+        }
+    }
+}

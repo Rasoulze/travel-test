@@ -1,0 +1,19 @@
+@import "varible";
+
+@mixin input-style {
+    background-color: $inputcarycolor;
+    border: 1px solid #a3aabd;
+    background-clip: padding-box;
+    outline: none;
+    font-family: $font-family-IRANSans !important;
+}
+
+@mixin button-style {
+    background-color: $primarycolor;
+    border: 1px solid $secondarycolor;
+    font-weight: 600;
+    color: $darkcolor;
+    font-size: 1.1rem;
+    font-family: $font-family-IRANSans !important;
+    box-shadow: $box-shadow;
+}

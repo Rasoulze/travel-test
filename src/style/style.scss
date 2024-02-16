@@ -1,0 +1,52 @@
+@import url("../Font/IRANSans/Farsi_numerals/webFonts/css/fontiran.css");
+@import "varible";
+
+
+html {
+  font-size: $fontsize !important;
+  height: 100vh;
+  overflow: hidden;
+  font-family: $font-family-IRANSans !important;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#root {
+  height: 100%;
+}
+
+.bg-light {
+  background-color: $lightcolor;
+}
+
+.text-blue {
+  color: $blueColor;
+}
+
+.text-red {
+  color: $redcolor
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.p-4 {
+  padding: 1.5rem;
+}
+
+button:disabled {
+  background-color: $midGrey !important;
+  border: $mutedcolor !important;
+}
